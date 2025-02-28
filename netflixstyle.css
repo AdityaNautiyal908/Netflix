@@ -1,0 +1,190 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+body {
+  background: #000;
+}
+
+.main {
+  background-image: url(assects/bg.jpg);
+  height: 70vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: max(1200, 100vw);
+  position: relative;
+}
+
+.main .box {
+  height: 70vh;
+  width: 100%;
+  opacity: 0.69;
+  background: #000;
+  position: absolute;
+  top: 0;
+}
+
+nav {
+  display: flex;
+  max-width: 60vw;
+  justify-content: space-between;
+  margin: auto;
+  align-items: center;
+  height: 62px;
+}
+
+nav img {
+  color: red;
+  width: 114px;
+  position: relative;
+  z-index: 10;
+}
+
+nav button {
+  position: relative;
+  z-index: 10;
+}
+
+.hero {
+  height: calc(100% - 62px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #fff;
+  position: relative;
+  gap: 20px;
+  padding: 0 30px;
+}
+
+.hero > :nth-child(1) {
+  font-weight: 900;
+  font-size: 48px;
+  font-style: normal;
+  text-align: center;
+}
+
+.hero > :nth-child(2) {
+  font-weight: 400;
+  font-size: 24px;
+  font-style: normal;
+  text-align: center;
+}
+
+.hero > :nth-child(3) {
+  font-weight: 400;
+  font-size: 20px;
+  font-style: normal;
+  line-height: 30px;
+  text-align: center;
+}
+
+.seperation {
+  height: 7px;
+  background: rgb(46, 46, 46);
+}
+
+.btn {
+  padding: 3px 8px;
+  font-style: normal;
+  background: transparent;
+  font-weight: 400;
+  line-height: 20px;
+  font-size: 16px;
+  font-style: normal;
+  color: #fff;
+  padding: 5px 15px;
+  border-radius: 5px;
+}
+
+.btn-red-sm {
+  background: red;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 14px;
+  color: #fff;
+  padding: 8px 15px;
+  border-radius: 5px;
+  margin-left: 18px;
+  cursor: pointer;
+}
+
+.hero-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.main input {
+  padding: 10px;
+  color: #fff;
+  border-radius: 6px;
+  margin-left: 10px;
+  font-weight: 400;
+  line-height: 24px;
+  font-size: 16px;
+  font-style: normal;
+  height: 35px;
+  width: 406px;
+  background: rgba(23, 23, 23, 0.7);
+  border: 1px solid rgba(246, 238, 238, 0.5);
+}
+
+.btn-red {
+  background: red;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 24px;
+  color: #fff;
+  padding: 15px 15px;
+  width: 190px;
+  border-radius: 4px;
+  height: 58px;
+  cursor: pointer;
+}
+
+.first {
+  display: flex;
+  justify-content: center;
+  max-width: 70vw;
+  margin: auto;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+}
+
+.secImg img {
+  width: 100%;
+}
+
+.first > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.first > div :nth-child(1) {
+  font-size: 48px;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.first > div :nth-child(2) {
+  font-size: 24px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.faq {
+    background: #000;
+    color: #fff;
+}
+
+.faq  {
+  display: flex;
+  background: grey;
+  padding: 34px;
+  width: 100%;
+}
