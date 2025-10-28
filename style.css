@@ -28,7 +28,7 @@ body {
 
 nav {
   display: flex;
-  max-width: 60vw;
+  max-width: 100vw;
   justify-content: space-between;
   margin: auto;
   align-items: center;
@@ -180,11 +180,129 @@ nav button {
 .faq {
     background: #000;
     color: #fff;
+    padding: 72px 0;
 }
 
-.faq  {
-  display: flex;
-  background: grey;
-  padding: 34px;
-  width: 100%;
+.faq h2 {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 900;
+    max-width: 46vw;
+    margin: auto;
+}
+
+.faqbox {
+    background: #2d2d2d;
+    padding: 24px;
+    max-width: 60vw;
+    margin: 34px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.faqbox:hover {
+    background: #414141;
+}
+
+.faqbox svg {
+    stroke: white;
+}
+
+footer {
+    color: white;
+    max-width: 70vw;
+    margin: auto;
+    padding: 60px 0;
+}
+
+footer .questions {
+    padding: 34px 0;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+    /* max-width: 70vw; */
+    margin: auto;
+    padding: 14px 0;
+}
+
+.footer-item {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+
+.footer a {
+    color: white;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 960px) {
+  .hero {
+    padding: 0 10px;
+  }
+
+  .hero > :nth-child(1) {
+    font-size: 32px;
+  }
+
+  .hero > :nth-child(2) {
+    font-size: 18px;
+  }
+
+  .hero > :nth-child(3) {
+    font-size: 16px;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+  }
+
+  .main input {
+    width: 80vw;
+  }
+
+  nav {
+    max-width: 90vw;
+  }
+
+  .first {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .first > div :nth-child(1) {
+    font-size: 32px;
+  }
+
+  .first > div :nth-child(2) {
+    font-size: 18px;
+  }
+
+  .faq {
+    width: 90vw;
+    margin: auto;
+  }
+
+  .faq h2 {
+    max-width: 90vw;
+  }
+
+  .faqbox {
+    max-width: 90vw;
+  }
+
+  .footer {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .footer {
+    grid-template-columns: 1fr;
+  }
 }
