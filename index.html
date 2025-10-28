@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Netflix India – Watch TV Shows Online, Watch Movies Online</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <script src="script.js" defer></script>
 </head>
 <body>
@@ -73,7 +74,8 @@
         <div class="seperation"></div>
 
         <section class="first fourth hidden">
-            <div class="seperation"></div>
+            </section>
+        <div class="seperation"></div>
         <section class="first second hidden">
             <div class="secImg">
                 <img src="assects/AAAABVr8nYuAg0xDpXDv0VI9HUoH7r2aGp4TKRCsKNQrMwxzTtr-NlwOHeS8bCI2oeZddmu3nMYr3j9MjYhHyjBASb1FaOGYZNYvPBCL.png" alt="">
@@ -180,6 +182,31 @@
         </div>
     </div>
 </footer>
+
+<div id="signInModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Sign In</h2>
+            <form>
+                <input type="email" placeholder="Email or phone number" required>
+                <div class="password-container">
+                    <input type="password" placeholder="Password" required>
+                    <i class="fas fa-eye" id="togglePassword"></i>
+                </div>
+                <button type="submit" class="btn btn-red">Sign In</button>
+                <div class="form-help">
+                    <div class="remember-me">
+                        <input type="checkbox" id="remember-me">
+                        <label for="remember-me">Remember me</label>
+                    </div>
+                    <a href="#">Need help?</a>
+                </div>
+            </form>
+            <div class="signup-link">
+                <p>New to Netflix? <a href="#">Sign up now</a>.</p>
+            </div>
+        </div>
+    </div>
 
 </body>
 </html>
