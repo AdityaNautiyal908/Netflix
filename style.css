@@ -420,6 +420,7 @@ footer {
 
   .btn-red {
     width: auto;
+    white-space: nowrap;
   }
 
   nav {
