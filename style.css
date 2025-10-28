@@ -259,11 +259,18 @@ footer .questions {
   }
 
   .hero-buttons {
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 
   .main input {
-    width: 80vw;
+    width: auto;
+    flex-grow: 1;
+  }
+
+  .btn-red {
+    width: auto;
   }
 
   nav {
