@@ -210,36 +210,6 @@ nav button {
     stroke: white;
 }
 
-footer {
-    color: white;
-    max-width: 70vw;
-    margin: auto;
-    padding: 60px 0;
-}
-
-footer .questions {
-    padding: 34px 0;
-}
-
-.footer {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    color: white;
-    /* max-width: 70vw; */
-    margin: auto;
-    padding: 14px 0;
-}
-
-.footer-item {
-    display: flex;
-    flex-direction: column;
-    gap: 23px;
-}
-
-.footer a {
-    color: white;
-    font-size: 14px;
-}
 
 @media screen and (max-width: 960px) {
   .hero {
@@ -300,16 +270,24 @@ footer .questions {
   }
 
   .faqbox {
-    max-width: 90vw;
+    max-width: 80vw;
+    padding: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
   }
 
-  .footer {
-    grid-template-columns: 1fr 1fr;
+  .faqbox span {
+    width: 100%;
+    text-align: center;
+    font-size: 18px; /* Reduced font size */
   }
+
+  .faqbox svg {
+    display: block;
+    margin-top: 10px;
+  }
+
+  
 }
 
-@media screen and (max-width: 700px) {
-  .footer {
-    grid-template-columns: 1fr;
-  }
-}
