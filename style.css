@@ -145,7 +145,7 @@ nav button {
 .btn-red {
   background: red;
   font-weight: 500;
-  font-size: 24px;
+  font-size: 15px;
   line-height: 24px;
   color: #fff;
   padding: 15px 15px;
@@ -153,6 +153,11 @@ nav button {
   border-radius: 4px;
   height: 58px;
   cursor: pointer;
+}
+
+.btn-red:hover {
+  background: rgb(218, 85, 85);
+  font-weight: bolder;
 }
 
 .first {
@@ -415,7 +420,6 @@ footer {
 
   .btn-red {
     width: auto;
-    font-size: 15px;
   }
 
   nav {
